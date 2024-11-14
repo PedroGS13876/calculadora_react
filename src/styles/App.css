@@ -1,0 +1,64 @@
+/* src/styles/App.css */
+
+.app-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.app-container h1 {
+  color: #4a90e2;
+  margin-bottom: 1rem;
+}
+
+.imc-calculator label {
+  display: block;
+  font-size: 1.1rem;
+  color: #333;
+  margin: 1rem 0 0.5rem;
+}
+
+.imc-calculator input {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.imc-calculator input:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+.imc-calculator button {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.imc-calculator button:hover {
+  background-color: #357abd;
+}
+
+.imc-calculator h3 {
+  margin-top: 1.5rem;
+  color: #333;
+  font-size: 1.3rem;
+}
+
+.imc-calculator p {
+  font-size: 1.1rem;
+  color: #555;
+}

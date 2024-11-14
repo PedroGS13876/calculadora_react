@@ -1,18 +1,15 @@
-import './App.css';
-import './global.css';
-import './index.css';
+import React from 'react';
+import IMCCalculator from './components/IMCCalculator';
+import './styles/App.css';
+import './styles/global.css';
 
-function App() {
+const App = () => {
   return (
-    <div className='app-container'>
-      <h2 className='app-header'>Calculadora de IMC</h2>
-      <label>Peso (kg):</label>
-      <input type="number" className='input-field' />
-      <label>Altura (cm):</label>
-      <input type="number" className='input-field' />
-      <button className='calculate-button'>Calcular IMC</button>
+    <div className="app-container">
+      <h1>Calculadora de IMC</h1>
+      <IMCCalculator />
     </div>
   );
-}
+};
 
 export default App;
